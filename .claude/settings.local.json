@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('proxmox-cpu-dashboard.json'\\)\\); print\\('JSON OK'\\); print\\('Tabellen mit Transform:', sum\\(1 for p in d['panels'] if p.get\\('type'\\)=='table' and 'transformations' in p\\)\\)\")"
+    ]
+  }
+}

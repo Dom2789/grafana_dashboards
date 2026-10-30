@@ -1,0 +1,7 @@
+# Secrets – niemals committen
+influx.env
+*.env
+.env
+
+# OS
+.DS_Store
